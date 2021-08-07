@@ -1,12 +1,12 @@
 import PIL.Image as Image
 import os
 
-IMAGES_PATH = 'D:\crown_rot_image\colour\second\combination\Third25\\' # 图片集地址
+IMAGES_PATH = 'D:\crown_rot_image\colour\second\H\infected\Thrid\\' # 图片集地址
 IMAGES_FORMAT = ['.jpg', '.JPG']  # 图片格式
 IMAGE_SIZE = 1024  # 每张小图片的大小
-IMAGE_ROW = 5  # 图片间隔，也就是合并成一张图后，一共有几行
-IMAGE_COLUMN = 5  # 图片间隔，也就是合并成一张图后，一共有几列
-IMAGE_SAVE_PATH = 'D:\crown_rot_image\colour\second\combination\\final.jpg'  # 图片转换后的地址
+IMAGE_ROW = 2  # 图片间隔，也就是合并成一张图后，一共有几行
+IMAGE_COLUMN = 2  # 图片间隔，也就是合并成一张图后，一共有几列
+IMAGE_SAVE_PATH = 'D:\crown_rot_image\colour\second\H\infected\Thrid\infected3.jpg'  # 图片转换后的地址
 
 # 获取图片集地址下的所有图片名称
 image_names = [name for name in os.listdir(IMAGES_PATH) for item in IMAGES_FORMAT if
